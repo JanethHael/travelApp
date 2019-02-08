@@ -12,17 +12,19 @@ class DescriptionPlace extends StatelessWidget {
         left: 20.0
       ),
       width: 80.0,
-      height: 80.0
-
+      height: 80.0,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        image:
-    ),
+        image: DecorationImage(
+            image: AssetImage("assets/img/people.jpg"),
+            fit: BoxFit.cover
+        ),
+      ),
 
     );
     return Row(
       children: <Widget>[
-
+        photo
       ],
     );
   }

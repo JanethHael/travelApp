@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'description_place.dart';
+//import 'description_place.dart';
+import 'review.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Hola Mundo Feliz"),
         ),
-        body: new DescriptionPlace("Bahamas",4,descriptionDummy),
+        body: DescriptionPlace()
       )
     );
   }
